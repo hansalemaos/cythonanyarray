@@ -33,7 +33,7 @@ print(flatpointerarray)
 #  [5555414     966    1914       2]]
 # [51 51 51 ... 43 43 43]
 # Iterate through the flattened indices - Blueprint for Cython
-# This snipped is crap in Python but in Cython it is pure gold (don't forget to add types!)
+# This snippet is crap in Python but in Cython it is pure gold (don't forget to add types!)
 flatiter = len(indexarray)
 for i in range(flatiter):
     if flatpointerarray[indexarray[i][0]] == 255:
